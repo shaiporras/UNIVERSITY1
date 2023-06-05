@@ -1,0 +1,103 @@
+#corner {
+    border-radius: 15px 50px 30px;
+    
+  }
+/* .center {
+    text-align: center;
+    color: #fff;
+  }
+body {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding-top: 17%;
+}  */
+
+.header img {
+    padding:5px;
+    width: 100px;
+    height: 100px;
+    float: top;
+  }
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #25963A;
+}
+
+.login-page {
+  width: 360px;
+  padding: 12% 0 0;
+  margin: auto;
+  background-image: url("img/CVS.png");
+}
+.form {
+  border-radius: 15px 50px 30px;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 #B7D8B7, 0 3px 3px 0 #B7D8B7;
+  
+}
+.form input {
+  font-family: 'Inter', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 1;
+  border-color: #B7D8B7;
+  margin: 0 0 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #25963A;
+  width: 100%;
+  border: 0;
+  padding: 12px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 15px 50px 30px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #25963A;
+  font-weight: bolder;
+}
+.form .admin {
+  margin: 18px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 2vh;
+}
+.form .admin a {
+  color: #ff0800;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#role {
+  font-family: 'Inter', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 1;
+  border-color: #B7D8B7;
+  margin: 0 0 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+
+
+
