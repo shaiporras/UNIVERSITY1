@@ -1,0 +1,6 @@
+# If the actual request is for /php/index.php, rewrite to error.php
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /php/index.php  [NC]
+RewriteRule ^php/index\.php /php/error.php  [L]
+
+# Otherwise check if root request and rewrite to /php/index.php
+RewriteRule ^$ /php/index.php  [L]
